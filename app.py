@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 import time
 from PIL import Image
 from gemini_api import generate_meme
