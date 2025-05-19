@@ -12,12 +12,12 @@ def align_text(text):
 
     for index, word in enumerate(words, start=1):
         aligned_text += word
-        if index % 6 == 0:
+        if index % 5 == 0:
             aligned_text += "\n"
         else:
             aligned_text += " "
 
-    return str(aligned_text.strip())
+    return str(aligned_text.strip().center(10))
 
 
 
