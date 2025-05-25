@@ -52,8 +52,7 @@ if submit:
                                 data=img_byte_arr,
                                 file_name = 'memeswift.png',
                                 mime = "image/png"
-                        )
-                                                
+                        )                 
 
                 else:
                 
