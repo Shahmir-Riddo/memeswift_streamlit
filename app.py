@@ -44,6 +44,18 @@ if submit:
                         st.write(meme_text)
                         st.image(output_image)
 
+                        img_byte_arr = io.BytesIO()
+                        output_image.save(img_byte_arr, format='PNG')
+                        img_byte_arr = img_byte_arr.getvalue()
+                        st.download_button(
+                                label='Download Meme',
+                                data=img_byte_arr,
+                                file_name = 'memeswift.png',
+                                mime = "image/png"
+                        )
+                                                
+
                 else:
+                
                         
                      st.error("Please upload or take a picture before clickick 'Generate'")
