@@ -20,10 +20,9 @@ An AI-powered meme generator built with Streamlit. Users can generate memes with
 ---
 
 📸 Preview
+![image](https://github.com/user-attachments/assets/6fbb7aec-47aa-4504-880b-c6254b9213d5)
 
 ![image](https://github.com/user-attachments/assets/f7b1c7bf-cc6e-45f9-83ba-f14c0c23db88)
-
-![image](https://github.com/user-attachments/assets/6fbb7aec-47aa-4504-880b-c6254b9213d5)
 
 ![image](https://github.com/user-attachments/assets/7afe99d6-94b6-467d-bac5-411235d08041)
 
